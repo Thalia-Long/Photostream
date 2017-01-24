@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:3:1
+	package
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:6:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:3:11
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+application
+ADDED from AndroidManifest.xml:13:5
+	android:label
+		ADDED from AndroidManifest.xml:14:9
+	android:icon
+		ADDED from AndroidManifest.xml:16:9
+	android:theme
+		ADDED from AndroidManifest.xml:15:9
+activity#com.google.android.photostream.LoginActivity
+ADDED from AndroidManifest.xml:18:9
+	android:label
+		ADDED from AndroidManifest.xml:20:13
+	android:name
+		ADDED from AndroidManifest.xml:19:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:21:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:22:17
+	android:name
+		ADDED from AndroidManifest.xml:22:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:23:27
+activity-alias#com.google.android.photostream.WallpaperActivity
+ADDED from AndroidManifest.xml:29:9
+	android:label
+		ADDED from AndroidManifest.xml:31:13
+	android:targetActivity
+		ADDED from AndroidManifest.xml:30:13
+	android:name
+		ADDED from AndroidManifest.xml:29:25
+intent-filter#android.intent.action.SET_WALLPAPER+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:32:13
+action#android.intent.action.SET_WALLPAPER
+ADDED from AndroidManifest.xml:33:17
+	android:name
+		ADDED from AndroidManifest.xml:33:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:34:17
+	android:name
+		ADDED from AndroidManifest.xml:34:27
+activity-alias#com.google.android.photostream.CreateShortcutActivity
+ADDED from AndroidManifest.xml:40:9
+	android:label
+		ADDED from AndroidManifest.xml:42:13
+	android:targetActivity
+		ADDED from AndroidManifest.xml:41:13
+	android:name
+		ADDED from AndroidManifest.xml:40:25
+intent-filter#android.intent.action.CREATE_SHORTCUT+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:43:13
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from AndroidManifest.xml:44:17
+	android:name
+		ADDED from AndroidManifest.xml:44:25
+activity#com.google.android.photostream.PhotostreamActivity
+ADDED from AndroidManifest.xml:53:9
+	android:label
+		ADDED from AndroidManifest.xml:55:13
+	android:name
+		ADDED from AndroidManifest.xml:54:13
+intent-filter#android.intent.category.DEFAULT+com.google.android.photostream.FLICKR_STREAM
+ADDED from AndroidManifest.xml:56:13
+action#com.google.android.photostream.FLICKR_STREAM
+ADDED from AndroidManifest.xml:57:17
+	android:name
+		ADDED from AndroidManifest.xml:57:25
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:60:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:61:17
+	android:name
+		ADDED from AndroidManifest.xml:61:25
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:63:17
+	android:name
+		ADDED from AndroidManifest.xml:63:27
+data
+ADDED from AndroidManifest.xml:64:17
+	android:host
+		ADDED from AndroidManifest.xml:65:23
+	android:scheme
+		ADDED from AndroidManifest.xml:64:23
+	android:pathPrefix
+		ADDED from AndroidManifest.xml:66:23
+activity#com.google.android.photostream.ViewPhotoActivity
+ADDED from AndroidManifest.xml:75:9
+	android:label
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+intent-filter#android.intent.category.DEFAULT+com.google.android.photostream.FLICKR_PHOTO
+ADDED from AndroidManifest.xml:78:13
+action#com.google.android.photostream.FLICKR_PHOTO
+ADDED from AndroidManifest.xml:79:17
+	android:name
+		ADDED from AndroidManifest.xml:79:25
+activity#com.google.android.photostream.SettingsActivity
+ADDED from AndroidManifest.xml:84:9
+	android:label
+		ADDED from AndroidManifest.xml:87:13
+	android:theme
+		ADDED from AndroidManifest.xml:85:13
+	android:name
+		ADDED from AndroidManifest.xml:86:13
+receiver#com.google.android.photostream.BootReceiver
+ADDED from AndroidManifest.xml:89:9
+	android:name
+		ADDED from AndroidManifest.xml:89:19
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:90:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:91:17
+	android:name
+		ADDED from AndroidManifest.xml:91:25
+service#com.google.android.photostream.CheckUpdateService
+ADDED from AndroidManifest.xml:95:9
+	android:name
+		ADDED from AndroidManifest.xml:95:18
